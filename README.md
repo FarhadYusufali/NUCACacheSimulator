@@ -1,2 +1,2 @@
 # NUCACacheSimulator
-Simulates a cache system with non-uniform cache access times
+The following simulates a single level cache system with non-uniform cache access times. As of now, it uses a simple S-NUCA policy to assign blocks to slices, and serves as a baseline upon which more sophisticated assignment policies can be implemented. It takes a PIN memory trace as input and dumpts various statistics about the trace into a text file after simulation completes.
